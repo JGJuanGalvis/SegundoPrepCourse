@@ -7,10 +7,10 @@ function esMayorDeEdad(fechaNacimiento) {
   // Tu código:
   var year = new Date();
   var newyear = year.getFullYear();
-  var operacion = newyear - fechaNacimiento;
+  var operacion = newyear - fechaNacimiento.getFullYear;
   if(operacion>=18){
   return true
-}else return false;
+} else return false;
 
 }
 
